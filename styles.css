@@ -1,0 +1,94 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+   font-family: "Arial Black", Gadget, sans-serif;
+}
+
+
+body {
+    --hue: var(--hue-neutral);
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(var(--hue), 100%, 20%);
+}
+
+.container {
+    width: 800px;
+    max-width: 80%;
+    background-color: slateblue;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+}
+
+#button-1 {
+    background-color: whitesmoke;
+    border: slateblue;
+    color: slateblue;
+    border-radius: 8px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .truncate {
+    width: 250px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #button-2 {
+    background-color: whitesmoke;
+    border: slateblue;
+    color: slateblue;
+    border-radius: 8px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  #button-3 {
+    float: right;
+    background-color: rgb(183, 179, 203);
+    border: slateblue;
+    border-radius: 25px;
+    color: whitesmoke;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  #button-4 {
+    float: right;
+    background-color: whitesmoke;
+    border: slateblue;
+    border-radius: 60px;
+    margin-right: 5px;;
+    color: slateblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  #button-4:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
